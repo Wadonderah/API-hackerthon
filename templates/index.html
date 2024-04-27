@@ -1,18 +1,18 @@
-{% load static %}
+{% load static %}  # This a link that is used to link the static files to the html file
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="{% static 'styless.css'%}">
+   <link rel="stylesheet" href="{% static 'styless.css'%}"> # This is the link to the css file.
   <title>Document</title>
 </head>
 <body>
-  <h1>Hello, am Wadondera</h1>
-  <P>Am a software developer specializing in Python, Django, and Dart.</P>
-  <h1>Random image</h1>
+  <h1>Hello, am Wadondera</h1> # This is the heading
+  <P>Am a software developer specializing in Python, Django, and Dart.</P>      # This is the paragraph
+  <h1>Random image</h1>  # This my second  heading
   {{results}}
-  <img src={{results}} alt="random pet" />
+  <img src={{results}} alt="random pet" /> # This is the image tag
 </body>
 </html>
